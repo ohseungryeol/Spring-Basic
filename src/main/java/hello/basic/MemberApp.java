@@ -21,6 +21,6 @@ public class MemberApp {
         Member findMember = memberService.findMember(1L);
         System.out.println(findMember.getName()+"안녕");
         System.out.println(member.getName());
-
+        System.out.println("깃 add 확인 ");
     }
 }
